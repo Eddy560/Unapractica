@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Práctica DOM</title>
+</head>
+<body>
+    <header>
+        <center><h1 id="Titulo01">Práctica DOM</h1></center>
+    </header>
+    <main>
+        <center><div>
+            <h1>#1 - Cambio de texto</h1>
+            <div id="ocultar">Texto original</div>
+	        <button onclick="cambiarTexto()">Cambiar</button>
+            </div></center>
+
+        <center><div>
+            <h1>#2 - Cambio de color</h1>
+            <div id="texticolor">Cambiar color de fondo</div>
+	        <button id="botoncolor">Cambiar</button>
+            </div></center>
+
+        <center><div>
+            <h1>#3 - Mensaje de alerta</h1>
+            <div id="hazalerta">¡Haz click!</div>
+	        <button id="Alertaclick" onclick="clickAlerta(value)">Click</button>
+        </div></center>
+
+        <center><div>
+            <h1>#4 - Ocultar y mostrar</h1>
+            <div id="textocultar">El texto se ocultará pulsando este boton</div>
+            <button id="oculmostrar" onclick="ocultar()">Ocultar</button>
+        </div></center>
+    </main>
+    <footer>
+        <center><h3><p>Juan Eduardo Morales Navarrete 4 - P</p></h3></center>
+    </footer>
+<script src="scripts/DOM.js"></script>
+</body>
+</html>
